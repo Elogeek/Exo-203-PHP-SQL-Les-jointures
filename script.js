@@ -24,7 +24,7 @@ let data = {
         "Blue"
     ]
 };
-let ctx = $("#myChart");
+let ctx = document.querySelector("#myChart");
 new Chart(ctx, {
     data: data,
     type: 'polarArea'
